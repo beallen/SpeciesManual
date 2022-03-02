@@ -4,12 +4,12 @@ suggested-citation
 contact
 introduction
 rationale-for-presenting-model-results
+species-models
 sample-size
 sampling-design-adequacy-and-detection-issue
-model-output-plausibility
-habitat-associations
-full-habitat-models-for-relatively-common-species-systematic-non-wetland-sites
+full-habitat-models-for-relatively-common-species-systematic-terrestrial-sites
 methods
+model-output-plausibility
 limitations
 use-availability-summaries-for-rarer-species
 methods-1
@@ -17,6 +17,7 @@ limitations-1
 predictive-maps
 systematic-sites
 methods-2
+reporting-regions
 limitations-2
 sector-effects
 methods-3

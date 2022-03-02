@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Species Manual for Lichens, Mosses, Vascular Plants, and Soil Mites</title>
+  <title>Species Manual for Modeling Lichens, Mosses, Vascular Plants, and Soil Mites</title>
   <meta name="description" content="Technical documentation describing the ABMI species models." />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Species Manual for Lichens, Mosses, Vascular Plants, and Soil Mites" />
+  <meta property="og:title" content="Species Manual for Modeling Lichens, Mosses, Vascular Plants, and Soil Mites" />
   <meta property="og:type" content="book" />
   
   
@@ -16,15 +16,15 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Species Manual for Lichens, Mosses, Vascular Plants, and Soil Mites" />
+  <meta name="twitter:title" content="Species Manual for Modeling Lichens, Mosses, Vascular Plants, and Soil Mites" />
   
   <meta name="twitter:description" content="Technical documentation describing the ABMI species models." />
   
 
-<meta name="author" content="Brandon Allen" />
+<meta name="author" content="Brandon Allen and Ermias Azeria" />
 
 
-<meta name="date" content="2022-02-01" />
+<meta name="date" content="2022-03-02" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +33,9 @@
   
 
 <link rel="next" href="introduction.html"/>
-<script src="libs/header-attrs-2.9/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -42,7 +43,6 @@
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
-
 
 
 
@@ -81,31 +81,32 @@
 </ul></li>
 <li class="chapter" data-level="2" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>2</b> Introduction</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="introduction.html"><a href="introduction.html#rationale-for-presenting-model-results"><i class="fa fa-check"></i><b>2.1</b> Rationale for presenting model results</a>
-<ul>
-<li class="chapter" data-level="2.1.1" data-path="introduction.html"><a href="introduction.html#sample-size"><i class="fa fa-check"></i><b>2.1.1</b> Sample size</a></li>
-<li class="chapter" data-level="2.1.2" data-path="introduction.html"><a href="introduction.html#sampling-design-adequacy-and-detection-issue"><i class="fa fa-check"></i><b>2.1.2</b> Sampling design adequacy and detection issue</a></li>
-<li class="chapter" data-level="2.1.3" data-path="introduction.html"><a href="introduction.html#model-output-plausibility"><i class="fa fa-check"></i><b>2.1.3</b> Model output plausibility</a></li>
+<li class="chapter" data-level="2.1" data-path="introduction.html"><a href="introduction.html#rationale-for-presenting-model-results"><i class="fa fa-check"></i><b>2.1</b> Rationale for presenting model results</a></li>
 </ul></li>
+<li class="chapter" data-level="3" data-path="species-models.html"><a href="species-models.html"><i class="fa fa-check"></i><b>3</b> Species Models</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="species-models.html"><a href="species-models.html#sample-size"><i class="fa fa-check"></i><b>3.1</b> Sample size</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="species-models.html"><a href="species-models.html#sampling-design-adequacy-and-detection-issue"><i class="fa fa-check"></i><b>3.1.1</b> Sampling design adequacy and detection issue</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="habitat-associations.html"><a href="habitat-associations.html"><i class="fa fa-check"></i><b>3</b> Habitat associations</a>
+<li class="chapter" data-level="3.2" data-path="species-models.html"><a href="species-models.html#full-habitat-models-for-relatively-common-species-systematic-terrestrial-sites"><i class="fa fa-check"></i><b>3.2</b> Full habitat models for relatively common species, systematic terrestrial sites</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="habitat-associations.html"><a href="habitat-associations.html#full-habitat-models-for-relatively-common-species-systematic-non-wetland-sites"><i class="fa fa-check"></i><b>3.1</b> Full habitat models for relatively common species, systematic (non-wetland) sites</a>
-<ul>
-<li class="chapter" data-level="3.1.1" data-path="habitat-associations.html"><a href="habitat-associations.html#methods"><i class="fa fa-check"></i><b>3.1.1</b> Methods</a></li>
-<li class="chapter" data-level="3.1.2" data-path="habitat-associations.html"><a href="habitat-associations.html#limitations"><i class="fa fa-check"></i><b>3.1.2</b> Limitations</a></li>
+<li class="chapter" data-level="3.2.1" data-path="species-models.html"><a href="species-models.html#methods"><i class="fa fa-check"></i><b>3.2.1</b> Methods</a></li>
+<li class="chapter" data-level="3.2.2" data-path="species-models.html"><a href="species-models.html#model-output-plausibility"><i class="fa fa-check"></i><b>3.2.2</b> Model output plausibility</a></li>
+<li class="chapter" data-level="3.2.3" data-path="species-models.html"><a href="species-models.html#limitations"><i class="fa fa-check"></i><b>3.2.3</b> Limitations</a></li>
 </ul></li>
-<li class="chapter" data-level="3.2" data-path="habitat-associations.html"><a href="habitat-associations.html#use-availability-summaries-for-rarer-species"><i class="fa fa-check"></i><b>3.2</b> Use-availability summaries for rarer species</a>
+<li class="chapter" data-level="3.3" data-path="species-models.html"><a href="species-models.html#use-availability-summaries-for-rarer-species"><i class="fa fa-check"></i><b>3.3</b> Use-availability summaries for rarer species</a>
 <ul>
-<li class="chapter" data-level="3.2.1" data-path="habitat-associations.html"><a href="habitat-associations.html#methods-1"><i class="fa fa-check"></i><b>3.2.1</b> Methods</a></li>
-<li class="chapter" data-level="3.2.2" data-path="habitat-associations.html"><a href="habitat-associations.html#limitations-1"><i class="fa fa-check"></i><b>3.2.2</b> Limitations</a></li>
+<li class="chapter" data-level="3.3.1" data-path="species-models.html"><a href="species-models.html#methods-1"><i class="fa fa-check"></i><b>3.3.1</b> Methods</a></li>
+<li class="chapter" data-level="3.3.2" data-path="species-models.html"><a href="species-models.html#limitations-1"><i class="fa fa-check"></i><b>3.3.2</b> Limitations</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="predictive-maps.html"><a href="predictive-maps.html"><i class="fa fa-check"></i><b>4</b> Predictive maps</a>
 <ul>
 <li class="chapter" data-level="4.1" data-path="predictive-maps.html"><a href="predictive-maps.html#systematic-sites"><i class="fa fa-check"></i><b>4.1</b> Systematic sites</a></li>
 <li class="chapter" data-level="4.2" data-path="predictive-maps.html"><a href="predictive-maps.html#methods-2"><i class="fa fa-check"></i><b>4.2</b> Methods</a></li>
-<li class="chapter" data-level="4.3" data-path="predictive-maps.html"><a href="predictive-maps.html#limitations-2"><i class="fa fa-check"></i><b>4.3</b> Limitations</a></li>
+<li class="chapter" data-level="4.3" data-path="predictive-maps.html"><a href="predictive-maps.html#reporting-regions"><i class="fa fa-check"></i><b>4.3</b> Reporting Regions</a></li>
+<li class="chapter" data-level="4.4" data-path="predictive-maps.html"><a href="predictive-maps.html#limitations-2"><i class="fa fa-check"></i><b>4.4</b> Limitations</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="sector-effects.html"><a href="sector-effects.html"><i class="fa fa-check"></i><b>5</b> Sector Effects</a>
 <ul>
@@ -127,7 +128,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Species Manual for Lichens, Mosses, Vascular Plants, and Soil Mites</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Species Manual for Modeling Lichens, Mosses, Vascular Plants, and Soil Mites</a>
           </h1>
         </div>
 
@@ -136,9 +137,9 @@
 
             <section class="normal" id="section-">
 <div id="header">
-<h1 class="title">Species Manual for Lichens, Mosses, Vascular Plants, and Soil Mites</h1>
-<p class="author"><em>Brandon Allen</em></p>
-<p class="date" style="margin-top: 1.5em;"><em>2022-02-01</em></p>
+<h1 class="title">Species Manual for Modeling Lichens, Mosses, Vascular Plants, and Soil Mites</h1>
+<p class="author"><em>Brandon Allen and Ermias Azeria</em></p>
+<p class="date"><em>2022-03-02</em></p>
 </div>
 <div id="summary" class="section level1" number="1">
 <h1><span class="header-section-number">1</span> Summary</h1>
@@ -149,11 +150,11 @@
 </div>
 <div id="suggested-citation" class="section level2" number="1.2">
 <h2><span class="header-section-number">1.2</span> Suggested citation</h2>
-<p>Alberta Biodiversity Monitoring Institute. 2022. Species Manual for Lichens, Mosses, Vascular Plants, and Soil Mites. Alberta Biodiversity Monitoring Institute, Alberta, Canada. (<a href="https://beallen.github.io/SpeciesManual/" class="uri">https://beallen.github.io/SpeciesManual/</a>)</p>
+<p>Alberta Biodiversity Monitoring Institute. 2022. Species Manual for Modeling Lichens, Mosses, Vascular Plants, and Soil Mites. Alberta Biodiversity Monitoring Institute, Alberta, Canada. (<a href="https://beallen.github.io/SpeciesManual/" class="uri">https://beallen.github.io/SpeciesManual/</a>)</p>
 </div>
 <div id="contact" class="section level2" number="1.3">
 <h2><span class="header-section-number">1.3</span> Contact</h2>
-<p>All questioned related to this document, acquiring raw data, or the available scripts, please contact Brandon Allen (<a href="mailto:brandon.allen@ualberta.ca" class="email">brandon.allen@ualberta.ca</a>).</p>
+<p>All questions related to this document, acquiring raw data, or the available scripts, please contact Brandon Allen (<a href="mailto:brandon.allen@ualberta.ca" class="email">brandon.allen@ualberta.ca</a>).</p>
 <p><img src="SpeciesManual_files/figure-html/logo/ABMI-Horizontal-FullColour.png" /></p>
 
 </div>
@@ -168,7 +169,6 @@
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -208,6 +208,10 @@ gitbook.start({
 "text": null
 },
 "download": ["Speices_Manual.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }
@@ -215,6 +219,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
